@@ -12,12 +12,12 @@ Given an array of integers, return indices of the two numbers such that they add
 var twoSum = function(nums, target) {
    var map = {};
        for (var i = 0, len = nums.length; i < len; i++) {
-           var num = target - nums[i];
-           if (map[num]) {
-              return[nums[i], num];
-           }
-           map[nums[i]] = i;
-       }
+            var num = target - nums[i];
+            if (typeof map[num] === 'number') {
+                return[map[num], i];
+            }
+            map[nums[i]] = i;
+        }
 };
 
 ```
