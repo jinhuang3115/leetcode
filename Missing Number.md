@@ -12,9 +12,10 @@ function slove(arr) {
         }
     }
     sum = sum + min + max;
-    let lowSum = (min * (min - 1)) / 2;
+    /*let lowSum = (min * (min - 1)) / 2;
     let upSum = (max * (max + 1)) / 2;
-    let sum1 = upSum - lowSum;
+    let sum1 = upSum - lowSum;*/
+    let sum1 = (min + max)*(max - min + 1) / 2;
     return sum1 - sum;
 }
 slove(arr);
