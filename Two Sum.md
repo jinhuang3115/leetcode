@@ -14,7 +14,7 @@ var twoSum = function(nums, target) {
        for (var i = 0, len = nums.length; i < len; i++) {
             var num = target - nums[i];
             if (typeof map[num] === 'number') {
-                return[map[num], i];
+                return[map[num], num[i]];
             }
             map[nums[i]] = i;
         }
