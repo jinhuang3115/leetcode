@@ -16,6 +16,6 @@ function findKthLargest(nums, k) {
     });
     let inx = nNums.length - k;
     let num = nNums.slice(inx, inx + 1)[0];
-    return num[0]
+    return num
 }
 ```
