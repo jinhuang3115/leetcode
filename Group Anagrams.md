@@ -1,4 +1,4 @@
-#Group Anagrams
+# Group Anagrams
 Given an array of strings, group anagrams together.
 
 For example, given: ["eat", "tea", "tan", "ate", "nat", "bat"], 
